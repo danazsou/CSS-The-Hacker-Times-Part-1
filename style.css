@@ -21,18 +21,30 @@ h1 {
 nav {
     border-top: 1px solid lightgrey ;
     border-bottom: 1px solid lightgrey;
+    
+}
+/* all styling related to links need to be styled with psuedo-classes and in that specific order  */
+a {
+    outline: none;
+    text-decoration: none;
+    color:#777;
 }
 h2,h4 {
     font-family: Roboto Slab;
 }
+h5{
+    color:#dd3232
+}
 p, .date {
    font-family: Source Sans Pro;
 }
-
 ul {
     list-style-type: none;
-    padding: 0;
-   
+    padding: 1px;
+    margin:none;
+    font-family: Source Sans Pro;
+    text-align: center;
+    font-size: medium;  
 }
 span {
     display: inline-block; /* the default for span */
